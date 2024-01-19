@@ -432,6 +432,14 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/random-array/levy`][@stdlib/random/array/levy]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a Lévy distribution.</span>
+-   <span class="package-name">[`@stdlib/random-iter/levy`][@stdlib/random/iter/levy]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a Lévy distribution.</span>
+-   <span class="package-name">[`@stdlib/random-streams/levy`][@stdlib/random/streams/levy]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a Lévy distribution.</span>
+
 </section>
 
 <!-- /.related -->
@@ -508,6 +516,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [levy]: https://en.wikipedia.org/wiki/L%C3%A9vy_distribution
 
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+
+<!-- <related-links> -->
+
+[@stdlib/random/array/levy]: https://github.com/stdlib-js/random-array-levy
+
+[@stdlib/random/iter/levy]: https://github.com/stdlib-js/random-iter-levy
+
+[@stdlib/random/streams/levy]: https://github.com/stdlib-js/random-streams-levy
+
+<!-- </related-links> -->
 
 </section>
 
