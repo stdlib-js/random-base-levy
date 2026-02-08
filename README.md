@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-levy@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-base-levy/tags). For example,
+
+```javascript
 import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-levy@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-levy@v0.2.2-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-levy@esm/index.mjs';
 ```
 
 #### levy( mu, c )
@@ -390,7 +395,7 @@ var o = rand.toJSON();
 <body>
 <script type="module">
 
-import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-levy@v0.2.2-esm/index.mjs';
+import levy from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-levy@esm/index.mjs';
 
 var seed;
 var rand;
